@@ -1,0 +1,239 @@
+/*Start main Rules*/
+body {
+    background-color: #f4f4f4;
+    font-size: 16px;
+    height: 4000px;
+}
+h1 {
+    margin: 70px 0 40px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #666
+}
+.nice-msg {
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 0;
+    border-left: 5px solid #080;
+}
+.form-control {
+    position: relative;
+}
+.asterisk {
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    color: #dc1c1c;
+}
+.custom-hr {
+    border-top : 1px solid #c9c9c9;
+}
+/*End main Rules*/
+
+/*Start navbar */
+/*p {margin-top: 55px;} **************************************************************/
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    min-height: 50px;
+    position: relative;
+}
+.navbar-brand {
+    font-size: 1em;
+}
+.nav>li>a,
+.navbar-brand{
+    padding: 15px 12px;
+}
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open>a:focus,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu {
+    background-color: #3498db;
+    color: #fff;
+}
+.dropdown-menu {
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+}
+.dropdown-menu > li > a {
+    color: #fff;
+    padding: 10px 15px;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: #8e44ad
+}
+/*End navbar */
+
+/*Start header*/
+.upper-bar {
+    padding: 10px;
+    background-color: #fff;
+}
+.upper-bar .my-info img {
+    width: 32px;
+    height: 32px;
+}
+/*End Header*/
+
+/*Start login page*/
+.login-page h1 {
+    color: #c0c0c0;
+}
+.login-page h1 span {
+    cursor: pointer;
+
+}
+.login-page form,
+.the-errors {
+    max-width: 380px;
+    margin: auto;
+}
+.login-page form input {
+    margin-bottom: 10px;
+}
+.login-page [data-class="login"].selected {
+    color: #337ab7;
+}
+.login-page [data-class="signup"].selected {
+    color: #5cb85c;
+}
+.login-page .signup {
+    display: none;
+}
+/*Start error part*/
+.the-errors .msg {
+    padding: 10px;
+    text-align: left;
+    border-left: 5px solid #cd6858;
+    background-color: #fff;
+    margin-bottom: 8px;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0; 
+    color: #919191;
+}
+.the-errors .error {
+    border-left: 5px solid #cd6858;
+}
+/*End login page*/
+
+/*Start Categories Page*/
+.item-box {
+    position: relative;
+}
+.item-box .price {
+    background-color: #b4b4b4;
+    padding: 2px 10px;
+    position: absolute;
+    left: 4px;
+    top: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+/*End Categories Page*/
+
+/*Start profile page*/
+.information {
+    margin-top: 20px;
+}
+.information ul {
+    margin: 0;
+    padding: 0;
+}
+.information ul li {
+    padding: 10px;
+}
+.information ul li:nth-child(odd) {
+    background-color: #eee;
+}
+.information ul li span {
+    display: inline-block;
+    width: 12%;
+}
+.thumbnail .date {
+    text-align: right;
+    font-size: 13px;
+    color: #eee;
+    font-weight: bold
+}
+.item-box .approve-stat {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #b85a5a;
+    color: #fff;
+    padding : 3px 5px;
+}
+.item-box .caption p {
+    height: 40px;
+    max-height: 40px;
+}
+.information .btn {
+    margin-top: 10px;
+}
+/*End profile page*/
+
+
+/*Start Show Items Page*/
+.item-info h2 {
+    padding: 10px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.item-info p {
+    padding: 10px;
+}
+.item-info ul li {
+    padding: 10px;
+
+}
+.item-info ul li:nth-child(odd) {
+    background-color: #e8e8e8;
+}
+.item-info ul li span {
+    display: inline-block;
+    width: 12%;
+}
+.add-comment h3 {
+    margin: 0 0 10px;
+}
+.add-comment textarea {
+    margin-bottom: 10px;
+    width: 75%;
+}
+.comment-box {
+    margin-bottom: 20px;
+}
+.comment-box img {max-width: 100px !important;margin-bottom: 10px;}
+.comment-box .lead {
+    background-color: #e0e0e0;
+    position: relative;
+    padding: 10px;
+}
+.comment-box .lead:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width :15px;
+    border-style: solid;
+    border-color: transparent #e0e0e0 transparent transparent;
+    position: absolute;
+    left: -29px;
+    top: 25%;
+}
+.item-tags a {
+    display: inline-block;
+    background-color : #e2e2e2;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #666;
+    margin-right: 5px;
+}
+/*End Show Items Page*/

@@ -1,0 +1,7 @@
+======================
+== Functions documentd
+=======================
+
+getAllFromAll($feild , $table ,$where = NULL , $and = NULL , $orderby , $ordering = 'DESC')
+
+$where ==> Can Be Empty
