@@ -6,3 +6,7 @@ site build with php
   2- import the .sql file to your phpmyadmin .
   3- add the project files inside htdocs ( if you use xampp ).
   3- open at your browser " localhosta/project-name/
+  
+# To see the admin panel 
+ - open ( localhost/project-name/admin/)
+ - you will find user and password for admin .
